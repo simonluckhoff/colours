@@ -1,0 +1,31 @@
+*{
+    background-color: #9DBBAE;
+    border: 0;
+    margin: 0;
+}
+
+.colours{
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.colours_column{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: bisque;
+}
+
+.colour{
+    width: 100%;
+    height: 200px;
+
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
