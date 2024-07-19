@@ -5,6 +5,11 @@
     font-family: 'Courier New', Courier, monospace;
 }
 
+body{
+    height: 100vh;
+    width: 100%;
+}
+
 .colours{
     width: 100%;
     height: 100%;
@@ -19,14 +24,16 @@
     flex-direction: column;
     width: 100%;
     height: 100vh;
-    background-color: bisque;
+    margin: 10px;
+    gap: 30px;
 }
 
 .colour{
     width: 100%;
     height: 20%;
-    color: white;
+    color: #252525;
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 15px;
 }
